@@ -1,3 +1,7 @@
+# mvn cmd to create AEM project
+
+mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate -D archetypeGroupId=com.adobe.aem -D archetypeArtifactId=aem-project-archetype -D archetypeVersion=41 -D aemVersion=cloud -D appTitle="Hackathon" -D appId="hackathon-app" -D groupId="com.marriott.aem" -D frontendModule="decoupled" -D aemVersion=6.5.0
+
 # Sample AEM project template
 
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
