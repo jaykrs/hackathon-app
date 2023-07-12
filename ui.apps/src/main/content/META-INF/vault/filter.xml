@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/hackathon-app/clientlibs"/>
+    <filter root="/apps/hackathon-app/components"/>
+    <filter root="/apps/hackathon-app/i18n"/>
+</workspaceFilter>

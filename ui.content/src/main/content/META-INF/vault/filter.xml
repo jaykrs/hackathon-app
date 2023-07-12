@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/hackathon-app" mode="merge"/>
+    <filter root="/content/hackathon-app" mode="merge"/>
+    <filter root="/content/dam/hackathon-app" mode="merge">
+        <exclude pattern="/content/dam/hackathon-app(/.*)?"/>
+        <include pattern="/content/dam/hackathon-app/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/hackathon-app/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/hackathon-app" mode="merge"/>
+</workspaceFilter>
